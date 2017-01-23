@@ -8,7 +8,7 @@
     <header class="shop-header">
         <div class="container">
              <div class="header-logo">
-                <img src="img/logo.png" alt="Gllacyshop" width="205" height="55">
+                <a class=logo href="#"<img src="img/logo.png" alt="barbershop" width="205" height="55"></a>
              </div>
              <nav class="main-navigation">
                 <ul>
@@ -44,8 +44,7 @@
         </div>
      </header>
   <main class="container">
-          <div class="breadcrumbs">
-            <ul>
+            <ul class="breadcrumbs">
               <li>
                  <a href="#">Главная</a>
               </li>
@@ -56,26 +55,22 @@
                   Сливочное
               </li>
             </ul>
-          </div>
          <h1>Сливочное мороженое</h1>
      <div class="filter">
-         <div class="sorting">
-            <form action="https://echo.htmlacademy.ru" method="post">
-                <p>Сортировка:</p>
-                <select name="choise">
-                  <option value="по популярности">По поулярности</option>
-                  <option value="по алфавиту">По алфавиту</option>
-                </select>
-             </form>
-          </div>
-          <div class="price">
-               <p>Цена: 100р.-500р.</p>
-               <form action="https://echo.htmlacademy.ru" method="post">
-               </form>
-          </div>
-          <div class="fatness">
-              <p>Жирность:</p>
-               <form action="https://echo.htmlacademy.ru" method="post">
+      <form action="https://echo.htmlacademy.ru" method="post">
+              <fieldset class="sorting">
+                  <legend>Сортировка</legend>
+                     <select name="choise">
+                        <option value="по популярности">По поулярности</option>
+                        <option value="по алфавиту">По алфавиту</option>
+                     </select>
+              </fieldset>
+              <fieldset class="price">
+                   <legend>Цена: 100р.-500р.</legend>
+
+             </fieldset>
+             <fieldset class="fatness">
+               <legend>Жирность:</legend>
                   <label>
                      <input type="radio" name="fatness" value="0%">
                       0%
@@ -92,25 +87,23 @@
                        <input type="radio" name="fatness" value="выше 30%" >
                        выше 30%
                     </label>
-                </form>
-          </div>
-          <div class="fillers">
-            <p>Наполнители:</p>
-            <form action="№" method="post">
-                  <input type="checkbox" name="chocolate" id="chocolate-field" checked>
-                  <label for="chocolate-field">Шоколадные</label>
-                  <input type="checkbox" name="sugar topping" id="sugar topping-field" >
-                  <label for="sugar topping">Сахарные присыпки</label>
-                  <input type="checkbox" name="fruit" id="fruit-field" checked>
-                  <label for="fruit-field">Фрукты</label>
-                  <input type="checkbox" name="syrups-COETZ" id="syrups-field" >
-                  <label for="syrups-field">Сиропы</label>
-                  <input type="checkbox" name="jams" id="jams-field" >
-                  <label for="jams-field">Джемы</label>
+              </fieldset>
+              <fieldset class="fillers">
+                  <legend>Наполнители:</legend>
+                     <input type="checkbox" name="chocolate" id="chocolate-field" checked>
+                     <label for="chocolate-field">Шоколадные</label>
+                     <input type="checkbox" name="sugar topping" id="sugar topping-field" >
+                     <label for="sugar topping">Сахарные присыпки</label>
+                     <input type="checkbox" name="fruit" id="fruit-field" checked>
+                     <label for="fruit-field">Фрукты</label>
+                     <input type="checkbox" name="syrups-COETZ" id="syrups-field" >
+                     <label for="syrups-field">Сиропы</label>
+                     <input type="checkbox" name="jams" id="jams-field" >
+                     <label for="jams-field">Джемы</label>
+               </fieldset>
                <input type="submit" value="Применить">
             </form>
           </div>
-     </div>
      <div class="content">
             <article class="product-item">
                <img src="img/photo-1.jpg" width="400" height="400" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
