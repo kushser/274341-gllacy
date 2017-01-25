@@ -7,7 +7,7 @@
   <body>
     <header class="shop-header">
         <div class="container">
-            <img src="img/logo.png" alt="Gllacyshop" width="205" height="55">
+            <a><img src="img/logo.png" alt="Gllacyshop" width="205" height="55"></a>
           <nav class="main-navigation">
             <ul>
               <li>
@@ -49,34 +49,34 @@
         </div>
         <div class="content">
              <div class="shares-item">
-               <h2>Малинка даром</h2>
-               <p>При покупке 2 кг любого фруктового мороженого, добавим
+               <h2 class="shares-title">Малинка даром</h2>
+               <p class="shares-description">При покупке 2 кг любого фруктового мороженого, добавим
                   в Ваш заказ банку малинового варенья бесплатно. </p>
                   <a class="btn-shares" href="#">Хочу варенье!</a>
              </div>
              <div class="shares-item">
-               <h2>Шоколадки даром!</h2>
-               <p>При покупке 2 кг пломбира , добавим
+               <h2 class="shares-title">Шоколадки даром!</h2>
+               <p class="shares-description">При покупке 2 кг пломбира , добавим
                   в Ваш заказ упаковку вкуснейшей шоколадной присыпки  совершенно бесплатно. </p>
                   <a class="btn-shares" href="#">Хочу шоколадки!</a>
              </div>
-             <div class="ribbon-top">
-              <article class="product-item">
+             <div class="catalog">
+              <article class="catalog-item-ribbon">
                 <img src="img/photo-1.jpg" width="400" height="400" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
                 <b>310р/кг</b>
                 <a class="btn-product" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
               </article>
-              <article class="product-item">
+              <article class="catalog-item-ribbon">
                  <img src="img/photo-2.jpg" width="400" height="400" alt="Сливочно-кофейное с кусочками шоколада">
                  <b>380р/кг</b>
                  <a class="btn-product" href="#">Сливочно-кофейное с кусочками шоколада</a>
               </article>
-              <article class="product-item">
+              <article class="catalog-item-ribbon">
                  <img src="img/photo-3.jpg" width="400" height="400" alt="Сливочно-клубничное с кусочками белого шоколада">
                  <b>355р/кг</b>
                  <a class="btn-product" href="#">Сливочно-клубничное с кусочками белого шоколада</a>
               </article>
-              <article class="product-item">
+              <article class="catalog-item-ribbon">
                   <img src="img/photo-4.jpg" width="400" height="400" alt="Сливочное крем-брюле с карамельной подливкой">
                   <b>415р/кг</b>
                   <a class="btn-product" href="#">Сливочное крем-брюле с карамельной подливкой</a>
@@ -84,47 +84,45 @@
               </div>
       </div>
         <div class="advantages">
-          <h2 class="advantages">Магазин Глейси- это онлайн и офлайн магазин о продаже мороженого
+          <h2 class="advantages-title">Магазин Глейси- это онлайн и офлайн магазин о продаже мороженого
               собственного производства  на развес</h2>
           <ul class="advantages">
              <li class="advantages">
-                <p class="advantages">Все наше мороженое изготавливается на собственом производстве,
+                <p class="advantages-description">Все наше мороженое изготавливается на собственом производстве,
                    с использованием современного оборудования и проверенных временем
                    технологий
                 </p>
              </li>
              <li class="advantages">
-               <p class="advantages">Для приготовления мороженого используются настоящие сливки и молоко
+               <p class="advantages-description">Для приготовления мороженого используются настоящие сливки и молоко
                   высочайшего качества.Все дополнительние ингредиенты и добавки произведены
                   из натурального , экологически чистого сырья.
                </p>
              </li>
-             <li class="advantages">
+             <li class="advantages-description">
                <p class="advantages">Закука ингредиентов производится только у проверенных фермерских
                 хозяйств и компаний, с которыми нас связывает долговременное
                 сотрудниествою
                </p>
              </li>
              <li class="advantages">
-               <p class="advantages">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
+               <p class="advantages-description">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке,
                  который не дает  мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.
                </p>
              </li>
            </ul>
         </div>
-        <div class="delivery">
+        <div class="row">
           <section class="news">
             <h4>Новое в нашем блоге</h4>
             <a class="btn-news" href="#">10 способов сервировки фруктовых щербетовк столу</a>
           </section>
           <section class="subscription">
-          <label for="subscription-field">
-            Подпишитесь на нашу сладкую рассылку и будете всегда в курсе
+            <p class="form">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе
                всего самого вкусного, что у нас происходит. Обещаем не спамить
-                и не слать всякой не нужной ерунды.Честно=).
-            </label>
+                и не слать всякой не нужной ерунды.Честно=).</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
-            <input id="subscription-field" type="text" name="mail" value="" placeholder="Электронная почта">
+            <label><input type="text" name="mail" value="" placeholder="Электронная почта"></label>
             <button class="btn" type="submit">Подписаться</button>
           </form>
           </section>
@@ -152,8 +150,8 @@
             <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
             <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
          </section>
-         <section class="footer-contacts">
-           <ul class="footer">
+         <section class="footer-info">
+           <ul class="info-list">
             <li>
               <a href="#">Для поставщиков</a>
             </li>
