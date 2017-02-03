@@ -72,6 +72,11 @@ float:right;;
   float: right;
   margin-top: 5px;
 }
+.breadcrumbs{
+  width: 267px;
+  float:left;
+  margin-right: 10px;
+}
 .content{
   width: 1146px;
   margin: 0 auto;
@@ -180,4 +185,18 @@ font-size: 16px;
   vertical-align: top;
   margin-right: 5px;
   font-size: 16px;
+}
+.advantages-item{
+  display: inline-block;
+  width: 560px;
+  min-height: 90px;
+  vertical-align: top;
+  margin-right: 26px;
+  font-size: 16px;
+}
+.advantages-item:nth-child(even) {
+  margin-right: 0;
+}
+.advantages-list{
+  font-size: 0px;
 }
