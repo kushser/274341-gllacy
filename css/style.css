@@ -8,16 +8,19 @@ min-width: 1200px;
  min-height: 1750px;
  margin: 0;
  padding: 0;
- background: url("../img/background-1-1200x2416.png") no-repeat center top;
+ background: url("../img/background-1-1200x2416.png") repeat center top;
 }
 h1{
+
 font-size: 60px;
 line-height: 60.35px;
 font-weight: bold;
-
 }
-.slider h1{
-  text-align: center;
+.promo h1{
+  width: 700px;
+  margin-top: 240px;
+  margin-right: auto;
+  margin-left: auto;
 }
 h2{
 font-size: 35px;
@@ -197,8 +200,11 @@ float:right;;
   height: 19px;
   background: url("../img/basket21x20.png") no-repeat;
 }
-.schedule{
+.tel{
   float: right;
+  text-align: right;
+}
+.schedule{
   margin-left: 300px;
   margin-bottom: 5px;
   font-size: 14px;
@@ -206,7 +212,6 @@ float:right;;
   font-weight: bold;
 }
 .number{
-  float: right;
   margin-top: 5px;
   font-size: 22px;
   line-height: 24px;
@@ -216,7 +221,7 @@ float:right;;
   width: 267px;
   float: left;
   margin: 0;
-  margin-top: 24px;
+  margin-top: 16px;
   margin-right: 10px;
   padding: 0;
   list-style: none;
@@ -237,11 +242,99 @@ float:right;;
 .breadcrumbs li:last-child{
   padding-bottom: 8px;
 }
+/*.shop-header .container{
+    position: relative;
+    z-index: 3;
+}*/
+.slider{
+min-height: 234px;
+width: 1146px;
+margin: 0 auto;
+padding: 0 27px;
+}
+/*.slider::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 82px;
+  width: 1037px;
+  height: 877px;
+  background: url("../img/ice-cream1-1037x877.jpg") no-repeat center;
+}*/
+/*.promo{
+  position: relative;
+}*/
+.btn-slider{
+  display: inline-block;;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+/*  position: absolute;
+  left: 434px;
+  top: 167px;*/
+  width: 198px;
+  height: 45px;
+  border-radius: 40px;
+  margin-right: auto;
+  margin-left: 434px;
+  padding: 10px 40px;
+}
 .content{
   width: 1146px;
   margin: 0 auto;
   padding: 0 27px;
   margin-bottom: 40px;
+  /*position: relative;*/
+}
+.content .content-left{
+    background: url("../img/raspberrybackground560x229.jpg") no-repeat center;
+    border-radius: 20px;
+}
+.content .content-right{
+  background: url("../img/chocolatebackground560x229.jpg") no-repeat center;
+  border-radius: 20px;
+}
+.shares-description{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.shares-title{
+  margin-left: 20px;
+}
+.btn-shares{
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+/*  position: absolute;
+  right: : 22px;
+  bottom: : 22px;*/
+  width: 165px;
+  height: 26px;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  margin-left: 373px;
 }
 .catalog-item-ribbon{
   display: inline-block;
@@ -250,24 +343,206 @@ float:right;;
   vertical-align: top;
   margin-right: 26px;
   font-size: 16px;
+  position: relative;
 }
 .catalog{
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
   font-size: 0px;
   margin-bottom: 40px;
 }
 .catalog-item-ribbon:nth-child(n+4) {
   margin-right: 0;
 }
+.catalog img{
+  border-radius: 50%;
+}
+.catalog-product img{
+  border-radius: 50%;
+}
+.catalog-item-ribbon a{
+  display: block;
+  padding: 2px 5px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: medium;
+  text-align: center;
+  text-decoration: underline;
+}
+.catalog-item a{
+  display: block;
+  padding: 2px 5px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: medium;
+  text-align: center;
+  text-decoration: underline;
+}
+.catalog-item-ribbon b{
+  display: block;
+  position: absolute;
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;;
+  left: 0px;
+  bottom: 78px;
+  text-decoration: none;;
+}
+.catalog-item b{
+  display: block;
+  position: absolute;
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;;
+  left: 0px;
+  bottom: 78px;
+  text-decoration: none;;
+}
+.catalog-item-ribbon a::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 611px;
+  height: 61px;
+  background: url("../img/top61x61.png") no-repeat;
+  border-radius: 10px;
+}
+.catalog-item a::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 61px;
+  height: 61px;
+  background: url("../img/top61x61.png") no-repeat;
+  border-radius: 10px;
+}
 .advantages-list{
+  margin: 0;
+  margin-left: 20px;
   padding-left: 0px;
 }
 .advantages{
+  width: 1146px;
+  margin: 0 27px;
+  padding: 0;
+  margin-bottom: 40px;
+  background: url("../img/background-4-734x433.png") repeat;
+  color: #323232;
+  border-radius: 25px;
+  padding-top: 13px;
+  position: relative;
+
+}
+.advantages-title{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: medium;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+.advantages-item{
+  margin: 0;
+}
+.advantages-description{
+  margin-left: 54px;
+  display:inline-block;
+}
+.advantages-title::before{
+  content: "";
+  position: absolute;
+  top: 117px;
+  left: 20px;
+  width: 49px;
+  height: 49px;
+  background: url("../img/icecream49x49.png") no-repeat;
+  border-radius: 10px;
+}
+.advantages-title::after{
+  content: "";
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  width: 49px;
+  height: 49px;
+  background: url("../img/leaflet49x49.png") no-repeat;
+  border-radius: 10px;
+}
+.advantages-list::before{
+  content: "";
+  position: absolute;
+  top: 117px;
+  left: 585px;
+  width: 49px;
+  height: 49px;
+  background: url("../img/cow49x49.png") no-repeat;
+  border-radius: 10px;
+}
+.advantages-list::after{
+  content: "";
+  position: absolute;
+  bottom: 70px;
+  left: 585px;
+  width: 49px;
+  height: 49px;
+  background: url("../img/thermometer49x49.png") no-repeat;
+  border-radius: 10px;
+}
+
+.row{
+  width: 1146px;
   margin: 0 auto;
+  padding: 0 27px;
   margin-bottom: 40px;
 }
-.row{
-  margin: 0 auto;
-  margin-bottom: 40px;
+.news{
+  background: url("../img/strawberrybackground560x220.jpg") no-repeat center;
+  border-radius: 20px;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+h4{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: medium;
+  color: #323232;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.btn-news{
+  display: block;
+  padding: 2px 0px;
+  margin-right: 240px;
+  margin-left: 20px;
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;;
+  text-align: left;
+  text-decoration: underline;
+}
+/*.row .content-right{
+ background: url("../img/trim.jpg") repeat ;
+ height: 220px;
+ margin:0px;
+ border-radius: 20px;
+}*/
+.subscription{
+  background: url("../img/trim.jpg") repeat ;
+  background: #f8f7f4;
+  background-size: 550px 210px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: regular;
+  color: #323232;
 }
 .map{
   width: 1200px;
@@ -334,6 +609,7 @@ min-height: 321px;
 vertical-align: top;
 margin-right: 26px;
 font-size: 16px;
+position: relative;
 }
 .catalog-item:nth-child(4n+4) {
   margin-right: 0;
@@ -348,7 +624,7 @@ font-size: 16px;
 }
 .advantages-item{
   display: inline-block;
-  width: 560px;
+  width: 540px;
   min-height: 90px;
   vertical-align: top;
   margin-right: 26px;
