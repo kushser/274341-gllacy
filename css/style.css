@@ -315,7 +315,7 @@ padding: 0 27px;
   display: inline-block;
   color: #ffffff;
   text-align: center;
-  vertical-align: middle;;
+  vertical-align: middle;
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
@@ -502,18 +502,20 @@ padding: 0 27px;
   margin-bottom: 40px;
 }
 .news{
+  height: 220px;
   background: url("../img/strawberrybackground560x220.jpg") no-repeat center;
   border-radius: 20px;
-  padding-top: 28px;
-  padding-bottom: 40px;
+ /*  padding-top: 28px;
+  padding-bottom: 40px;*/
 }
 h4{
+  display: inline-block;
   font-size: 16px;
   line-height: 22px;
   font-weight: medium;
   color: #323232;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 28px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 .btn-news{
@@ -528,24 +530,69 @@ h4{
   text-align: left;
   text-decoration: underline;
 }
-/*.row .content-right{
- background: url("../img/trim.jpg") repeat ;
- height: 220px;
- margin:0px;
- border-radius: 20px;
-}*/
 .subscription{
-  background: url("../img/trim.jpg") repeat ;
-  background: #f8f7f4;
-  background-size: 550px 210px;
+  margin: 0;
+  padding: 0;
+  height: 220px;
+  background: url("../img/subscriptionbackground549x211.png"), url("../img/trim.jpg");
+  background-repeat: no-repeat,  repeat;
+  background-size: 540px 200px, 40px 38px;
+  background-position: 10px 10px, 0px 0px;
   border-radius: 20px;
   font-size: 16px;
   line-height: 22px;
   font-weight: regular;
   color: #323232;
 }
+.subscription p{
+  display: inline-block;
+  margin: 0px;
+  margin-top: 40px;
+  margin-right: 27px;
+  margin-bottom: 40px;
+  margin-left: 27px;
+}
+.subscription-form{
+  margin: 0px;
+  margin-right: 20px;
+  margin-left: 27px;
+}
+.subscription-form input{
+  width: 337px;
+  height: 42px;
+  padding: 2px 15px;
+ margin-right: 7px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 10px;
+
+}
+.btn{
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  width: 128px;
+  height: 44px;
+  border-radius: 40px;
+}
+
+}
 .map{
   width: 1200px;
+  position: relative;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
@@ -557,10 +604,18 @@ h4{
   height: auto;
   margin: 0 auto
 }
-.contacts{
+ .contacts{
+/*  position: absolute;*/
+  left: : 870px;
+  top: 63px;
   width: 304px;
-  float: right;
-  margin-right: 27px;
+  height: 305px;
+  background: #fefefe;
+  border-radius: 10px;
+  color: #323232;
+}
+.contacts p{
+
 }
 .footer-social{
   width: 293px;
