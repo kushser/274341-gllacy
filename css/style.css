@@ -4,9 +4,8 @@ line-height: 22px;
 font-weight: normal;;
 color: #ffffff;
 font-family: 'Roboto', Arial, sans-serif;
-min-width: 1200px;
- min-height: 1750px;
- margin: 0;
+max-width: 1200px;
+ margin: 0 auto;
  padding: 0;
  background: url("../img/background-1-1200x2416.png") repeat center top;
 }
@@ -75,6 +74,7 @@ float:right;;
   color: #ffffff;
   text-decoration: underline;
 }
+
 .main-navigation a:hover {
   display: block;
   padding: 8px 10px;
@@ -84,6 +84,32 @@ float:right;;
   text-decoration: none;
 }
 .main-navigation a:active{
+  background-color: rgba(248, 247, 244, 0.988);
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+}
+.main-navigation.activ li:not(:first-child) a{
+  display: block;
+  padding: 8px 10px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.main-navigation.activ li:first-child a{
+  display: block;
+  padding: 8px 10px;
+  background: #d07058;
+  color: #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.main-navigation.activ li:not(:first-child) a:hover{
+  display: block;
+  padding: 8px 10px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.main-navigation.activ a:active{
   background-color: rgba(248, 247, 244, 0.988);
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
 }
@@ -204,6 +230,7 @@ float:right;;
   height: 19px;
   background: url("../img/basket21x20.png") no-repeat;
 }
+
 .tel{
   float: right;
   text-align: right;
@@ -237,17 +264,20 @@ float:right;;
   line-height: 16px;
   vertical-align: text-bottom;
 }
-.breadcrumbs a{
+.breadcrumbs li:not(:last-child) a{
   display: block;
   padding: 8px 10px;
   color: #ffffff;
   text-decoration: underline;
 }
-.breadcrumbs a:hover, .breadcrumbs a:active{
+.breadcrumbs li:not(:last-child) a:hover, .breadcrumbs li:not(:last-child) a:active{
   color:#ffbc9e;
 }
-.breadcrumbs li:last-child{
-  padding-bottom: 8px;
+.breadcrumbs:last-child a{
+  display: block;
+  padding: 8px 10px;
+  color: #ffffff;
+  text-decoration: none;
 }
 .slider{
 min-height: 234px;
@@ -878,7 +908,7 @@ text-decoration: underline;
   text-align: center;
   vertical-align: middle;
 }
-.pagination-item.begin::before{
+.pagination-item.activ::before{
   content: "";
   position: absolute;
   top: 5px;
@@ -908,16 +938,12 @@ text-decoration: underline;
   text-align: center;
   vertical-align: middle;
 }
-.pagination-item.begin{
+.pagination-item.activ a{
   color: #000000;
   background: #ffffff;
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
-}
-.one{
- text-align: center;
- vertical-align: middle;
 }
 .advantages-item:nth-child(even) {
   margin-right: 0;
