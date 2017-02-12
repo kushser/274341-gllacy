@@ -17,7 +17,24 @@
           <nav class="main-navigation">
             <ul>
               <li>
-                <a href="#">Каталог</a>
+                <a class="pop-one"href="#">Каталог</a>
+                  <ul class="pop">
+                    <li class="pop-item">
+                      <a class="name">Новинки</a>
+                    </li>
+                    <li class="pop-item">
+                      <a class="new-item"href="#">Сливочное</a>
+                    </li>
+                    <li class="pop-item">
+                      <a class="new-item"href="#">Щербеты</a>
+                    </li>
+                    <li class="pop-item">
+                      <a class="new-item"href="#">Фруктовый лед</a>
+                    </li>
+                    <li class="pop-item">
+                      <a class="new-item"href="#">Мелорин</a>
+                    </li>
+                  </ul>
               </li>
               <li>
                 <a href="#">Доставка и оплата</a>
@@ -30,14 +47,25 @@
         </div>
         <div class="content-right">
           <div class="search">
-            <form  class="search-header" action="#" method="post">
-              <label>
-                <input type="text" name="seach">
-              </label>
-            </form>
+            <div class="form-search">
+              <form  class="search-header" action="#" method="post">
+                <label>
+                  <input type="text" name="seach" placeholder="Что ищем?">
+                </label>
+              </form>
+            </div>
           </div>
           <div class="user-block">
             <a class="login" href="#">Вход</a>
+            <div class="pop-user">
+              <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+                <input class="icon-user" type="text" name="login" placeholder="Электроная почта">
+                <input class="icon-password" type="password"  name="password" placeholder="Пароль">
+                <button class="btn-login" type="submit">Войти</button>
+                <a class="restore" href="#">Забыли пароль?</a>
+                <a class="restore" href="#">Новая регистрация?</a>
+              </form>
+            </div>
           </div>
           <div class="basket-block">
             <a class="basket" href="#">Пусто</a>
@@ -123,15 +151,15 @@
               </p>
             </li>
             <li class="advantages-item">
-              <p class="advantages-description">Для приготовления мороженого используются настоящие сливки и молоко
-                высочайшего качества.Все дополнительние ингредиенты и добавки произведены
-                из натурального , экологически чистого сырья.
+              <p class="advantages-description">Закупка ингредиентов производится только у проверенных фермерских
+                хозяйств и компаний, с которыми нас связывает долговременное
+                сотрудниество.
               </p>
             </li>
             <li class="advantages-item">
-              <p class="advantages-description">Закуgка ингредиентов производится только у проверенных фермерских
-                хозяйств и компаний, с которыми нас связывает долговременное
-                сотрудниествою
+              <p class="advantages-description">Для приготовления мороженого используются настоящие сливки и молоко
+                  высочайшего качества.Все дополнительние ингредиенты и добавки произведены
+                  из натурального , экологически чистого сырья.
               </p>
             </li>
             <li class="advantages-item">
@@ -145,7 +173,7 @@
         <div class="content-left">
           <section class="news">
             <h4>Новое в нашем блоге</h4>
-            <a class="btn-news" href="#">10 способов сервировки фруктовых щербетовк столу</a>
+            <a class="btn-news" href="#">10 способов сервировки фруктовых щербетов к столу</a>
           </section>
         </div>
         <div class="content-right">
