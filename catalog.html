@@ -119,39 +119,63 @@
               </div>
             </div>
           </div>
-          <fieldset class="fatness">
-            <legend>Жирность:</legend>
-            <label>
-            <input type="radio" name="fatness" value="0%">
+          <div class="fatness">
+            <div class="name-fatness"> <p>Жирность:</p></div>
+            <div class="radio-list">
+            <label class="radio-fatness">
+            <input  class="radio-btn" type="radio" name="fatness" value="0%">
+            <span class="radiobox-indicator"></span>
             0%
             </label>
-            <label>
-            <input type="radio" name="fatness" value="до 10%" checked>
+            <label class="radio-fatness">
+            <input class="radio-btn" type="radio" name="fatness" value="до 10%" checked>
+            <span class="radiobox-indicator"></span>
             до 10%
             </label>
-            <label>
-            <input type="radio" name="fatness" value="до 30%" >
+            <label class="radio-fatness">
+            <input class="radio-btn" type="radio" name="fatness" value="до 30%" >
+            <span class="radiobox-indicator"></span>
             до 30%
             </label>
-            <label>
-            <input type="radio" name="fatness" value="выше 30%" >
+            <label class="radio-fatness">
+            <input class="radio-btn" type="radio" name="fatness" value="выше 30%" >
+            <span class="radiobox-indicator"></span>
             выше 30%
             </label>
-          </fieldset>
-          <fieldset class="filters">
-            <legend>Наполнители:</legend>
-            <input type="checkbox" name="chocolate" id="chocolate-field" checked>
-            <label for="chocolate-field">Шоколадные</label>
-            <input type="checkbox" name="sugar topping" id="sugar-field" >
-            <label for="sugar-field">Сахарные присыпки</label>
-            <input type="checkbox" name="fruit" id="fruit-field" checked>
-            <label for="fruit-field">Фрукты</label>
-            <input type="checkbox" name="syrups-COETZ" id="syrups-field" >
-            <label for="syrups-field">Сиропы</label>
-            <input type="checkbox" name="jams" id="jams-field" >
-            <label for="jams-field">Джемы</label>
-          </fieldset>
-          <input type="submit" value="Применить">
+          </div>
+        </div>
+          <div class="filters">
+            <div class="name-filters"> <p>Наполнители:</p></div>
+            <div class="filters-list">
+
+            <label class="filters-item">
+            <input class="indicator" type="checkbox" name="chocolate" checked>
+            <span class="checkbox-indicator"></span>
+            Шоколадные
+            </label>
+            <label class="filters-item">
+              <input class="indicator" type="checkbox" name="sugar topping" id="sugar-field" >
+              <span class="checkbox-indicator"></span>
+              Сахарные присыпки
+            </label>
+            <label class="filters-item">
+              <input class="indicator" type="checkbox" name="fruit" id="fruit-field" checked>
+              <span class="checkbox-indicator"></span>
+              Фрукты
+            </label>
+            <label class="filters-item">
+              <input class="indicator" type="checkbox" name="syrups-COETZ" id="syrups-field" >
+              <span class="checkbox-indicator"></span>
+              Сиропы
+            </label>
+            <label class="filters-item">
+              <input class="indicator" type="checkbox" name="jams" id="jams-field" >
+              <span class="checkbox-indicator"></span>
+              Джемы
+            </label>
+          </div>
+          </div>
+          <input class="filters-on" type="submit" value="Применить">
         </form>
       </div>
       <div class="catalog-product">
