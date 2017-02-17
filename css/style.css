@@ -138,6 +138,9 @@ font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
 }
+.slider-controls label:hover{
+  background: rgba(255, 255, 255, 0.4);
+}
 #btn-1:checked ~ .site-wrapper #slide1,
 #btn-2:checked ~ .site-wrapper #slide2,
 #btn-3:checked ~ .site-wrapper #slide3 {
