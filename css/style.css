@@ -1326,8 +1326,8 @@ h4{
 }
  .contacts{
   position: absolute;
-  right: 27px;
-  top: 63px;
+  right:27px;
+  bottom: 63px;
   width: 252px;
   min-height: 305px;
   background: #fefefe;
@@ -1381,11 +1381,11 @@ h4{
   color: #000000;
   margin: 0px;
 }
-.foto::after{
+.map::after{
   content: "";
   position: absolute;
-  top: 140px;
-  left: 265px;
+  top: 34%;
+  left: 22%;
   width: 218px;
   height: 142px;
   background: url("../img/pin218x142.png") no-repeat;
@@ -1926,9 +1926,14 @@ padding-left: 16px;
   font-size: 0px;
 }
 .map{
-  width: 1200px;
+  overflow: hidden;
   position: relative;
-  left: -27px;
+}
+.cle{
+  position: relative;
+}
+.coordinates{
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
