@@ -29,7 +29,8 @@ font-weight: bold;
   line-height: 41px;
   font-weight: bold;
   margin: 0;
-  margin-bottom: 28px;
+  margin-top: 1px;
+  margin-bottom: 27px;
 }
 h2{
 font-size: 35px;
@@ -65,11 +66,9 @@ font-weight: bold;
   padding: 0 27px;
 }
 .slider {
-/*  position: relative;*/
-
   padding-top: 276px;
   padding-bottom: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 43px;
   text-align: center;
   color: #ffffff;
 }
@@ -80,15 +79,13 @@ font-weight: bold;
   width: 700px;
   margin: 0 auto;
   margin-bottom: 27px;
-
   font-weight: 800;
   font-size: 60px;
   line-height: 60.35px;
 }
 .slide-btn {
   display: inline-block;
-  padding: 12px 40px;
-
+  padding: 10px 40px;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -110,7 +107,6 @@ font-weight: bold;
   background:         linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
 }
-
 .slide-btn:active {
   background:    -moz-linear-gradient(top, #d84732 0%, #e1613e 100%);
   background: -webkit-linear-gradient(top, #d84732 0%, #e1613e 100%);
@@ -119,8 +115,8 @@ font-weight: bold;
 }
 .slider-controls {
   position: relative;
-  bottom: 44px;
-  left: 2;
+  bottom: 42px;
+  left: 2px;
   z-index: 20;
   float: left;
   font-size: 0;
@@ -130,9 +126,7 @@ font-weight: bold;
   width: 17px;
   height: 17px;
   margin-right: 8px;
-
   vertical-align: top;
-
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -200,6 +194,7 @@ float:right;
   padding: 0;
   list-style: none;
   font-size: 0;
+  position: relative;
 }
 .submenu{
   margin: 0;
@@ -237,7 +232,6 @@ float:right;
   padding: 8px 0px;
   padding-bottom: 0px;
   margin-right: 13px;
-  /*margin-bottom:8px;*/
   margin-left: 14px;
   color: #ffffff;
   font-size: 16px;
@@ -493,7 +487,6 @@ border-bottom: 1px solid rgba(255, 255, 255, 0);
 .login{
   position: relative;
   display: inline-block;
-/*  margin-top: 2px;*/
   padding-top: 8px;
   padding-right: 16px;
   padding-bottom: 8px;
@@ -677,9 +670,9 @@ border-bottom: 1px solid rgba(255, 255, 255, 0);
   position: relative;
   display: inline-block;
   padding-top: 8px;
-  padding-right: 16px;
+  padding-right: 0px;
   padding-bottom: 8px;
-  padding-left: 43px;
+  padding-left: 42px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
@@ -720,6 +713,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0);
   padding: 20px 14px;
   border-radius: 10px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  z-index: 25;
 }
 .basket-list::before{
   content: "";
@@ -955,7 +949,7 @@ position: relative;
   width: 1146px;
   margin: 0 auto;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 .content .content-left{
     background-color: #f90eb4;
@@ -1029,7 +1023,6 @@ position: relative;
   margin: 0 auto;
   padding: 0;
   font-size: 0px;
-  margin-bottom: 40px;
 }
 .catalog-item{
   display: inline-block;
@@ -1037,6 +1030,7 @@ position: relative;
   width: 267px;
   vertical-align: top;
   margin-right: 26px;
+  margin-bottom: 37px;
   font-size: 16px;
 }
 .action{
@@ -1050,7 +1044,7 @@ position: relative;
   width: 100%;
   overflow: hidden;
   z-index: 20;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 img{
   display: block;
@@ -1070,9 +1064,10 @@ img{
 .name-product{
   color: #ffffff;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 22px;
   font-weight: 500;
   text-align: center;
+  margin: 0;
 }
 .name-product a{
   color: #ffffff;
@@ -1094,7 +1089,7 @@ img{
   line-height: 45px;
   font-weight: bold;
   left: 0px;
-  top: 220px;
+  top: 210px;
   text-decoration: none;
   z-index: 30;
 }
@@ -1179,26 +1174,26 @@ img{
 .advantages{
   width: 1146px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 25px;
   padding-right: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 24px;
   padding-left: 20px;
   margin-bottom: 40px;
   background-color: #efe2c8;
   background: url("../img/background-4-734x433.png") repeat;
   background-size: cover;
   color: #323232;
-  border-radius: 25px;
+  border-radius: 20px;
   box-sizing: border-box;
   position: relative;
 }
 .advantages-title{
   font-size: 24px;
   line-height: 30px;
-  font-weight: medium;
+  font-weight: 500;
   margin: 0;
   margin-right: 100px;
-  margin-bottom: 28px;
+  margin-bottom: 23px;
 }
 .advantages-list{
   margin: 0;
@@ -1234,7 +1229,7 @@ img{
 .advantages-item:nth-child(3)::before{
   content: "";
   position: absolute;
-  top: 186px;
+  top: 182px;
   left: 20px;
   width: 49px;
   height: 49px;
@@ -1254,27 +1249,26 @@ img{
 .advantages-item:nth-child(4)::before{
   content: "";
   position: absolute;
-  top: 186px;
+  top: 182px;
   left: 586px;
   width: 49px;
   height: 49px;
   background: url("../img/thermometer49x49.png") no-repeat;
   border-radius: 10px;
 }
-
 .row{
   width: 1146px;
   margin: 0 auto;
   padding: 0 ;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 .news{
   min-height: 220px;
   background-color: #ffffff;
   background: url("../img/strawberrybackground560x220.jpg") no-repeat center;
   background-size: cover;
-  border-radius: 20px;
-  padding: 27px 15px;
+  border-radius: 15px;
+  padding: 23px 20px;
   box-sizing: border-box;
 }
 h4{
@@ -1284,11 +1278,11 @@ h4{
   font-weight: medium;
   color: #323232;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 4px;
 }
 .btn-news{
   display: block;
-  width: 290px;
+  width: 330px;
   color: #323232;
   font-size: 24px;
   line-height: 30px;
@@ -1302,7 +1296,10 @@ h4{
 }
 .subscription{
   margin: 0;
-  padding: 30px 16px;
+  padding-top: 29px;
+  padding-right: 23px;
+  padding-bottom: 29px;
+  padding-left: 22px;
   min-height: 220px;
   background: #f8f7f4;
   border: 5px solid rgba(255, 255, 255, 0);
@@ -1317,7 +1314,7 @@ h4{
 .subscription-title{
   display: inline-block;
   margin: 0px;
-  margin-bottom: 28px;
+  margin-bottom: 35px;
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
@@ -1329,8 +1326,8 @@ h4{
 .subscription-form input{
   width: 337px;
   height: 42px;
-  padding: 2px 15px;
- margin-right: 7px;
+  padding: 1.5px 15px;
+ margin-right: 5px;
   font-size: 16px;
   line-height: 24px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -1352,10 +1349,13 @@ h4{
   background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-  width: 128px;
+  width: 126px;
   height: 44px;
   border-radius: 40px;
   border: 0;
+  padding-right: 7px;
+  padding-bottom: 4px;
+  padding-left: 9px;
 }
 .btn:hover{
   background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
@@ -1373,21 +1373,46 @@ h4{
   overflow: hidden;
 }
  .contacts{
-  position: absolute;
+  /*position: absolute;
   right:27px;
-  bottom: 63px;
-  width: 252px;
+  bottom: 63px;*/
+  width: 304px;
   min-height: 305px;
+  float: right;
   background: #fefefe;
   border-radius: 10px;
   color: #323232;
+  padding-top: 28px;
   padding-right:26px;
+  padding-bottom: 31px;
   padding-left: 26px;
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
   color: #000000;
   margin: 0;
+  box-sizing: border-box;
+}
+.text{
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: inherit;
+  padding-right: 45px;
+  padding-bottom: 3px;
+  padding-left: 2px;
+}
+.text1{
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: inherit;
+  padding-top: 1px;
+  padding-right: 45px;
+  padding-bottom: 7px;
+  padding-left: 2px;
 }
 .btn-contact{
   display: inline-block;
@@ -1407,8 +1432,8 @@ h4{
   border-radius: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  margin-top: 22px;
+  margin-bottom: 0px;
 }
 .btn-contact:hover{
   background:    -moz-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
@@ -1422,18 +1447,26 @@ h4{
   background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
-.address{
+ .contacts .address{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 14px;
+}
+.contacts .address-tel{
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
   color: #000000;
   margin: 0px;
 }
-.map::after{
+.contacts::before{
   content: "";
   position: absolute;
-  top: 34%;
-  left: 22%;
+  top: 24.8%;
+  left: 20.9%;
   width: 218px;
   height: 142px;
   background: url("../img/pin218x142.png") no-repeat;
@@ -1448,7 +1481,7 @@ h4{
   position: relative;
   width: 38px;
   height: 38px;
-  margin: 0 2px;
+  margin: 0 3px;
   margin-top: 16px;
   margin-bottom: 28px;
   font-size: 0;
@@ -1489,12 +1522,13 @@ h4{
 .info-list{
   margin: 0;
   padding: 0;
-  margin-top: 16px;
+  margin-top: 14px;
 }
 .info-item{
   position: relative;
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
   display: inline-block;
   width: 240px;
   vertical-align: top;
@@ -1527,6 +1561,9 @@ text-decoration: underline;
 .left{
   margin-left: 110px;
 }
+.info-item:nth-child(even){
+  padding-left: 7px;
+}
 .footer-copyright{
   width: 293px;
   float: left;
@@ -1546,11 +1583,12 @@ text-decoration: underline;
 }
 .foto-logo{
   overflow: hidden;
+  padding-left: 3px;
 }
 .footer-copyright p{
   margin: 0;
-  margin-top: 7px;
-  margin-left: 103px;
+  margin-top: 4px;
+  margin-left: 105px;
   color: #ffffff;
   font-size: 12px;
   line-height: 18px;
@@ -1568,7 +1606,7 @@ text-decoration: underline;
     padding: 0;
     margin: 0;
     margin-right: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: none;
 }
 .sorting  select{
@@ -1597,16 +1635,15 @@ text-decoration: underline;
   font-weight: 500;
   font-family: inherit;
 }
-/*стили для ползунков*/
 .range-filter{
   display: inline-block;
   width: 215px;
-  margin-right: 16px;
+  margin-right: 14.5px;
   vertical-align: top;
 }
 .range-controls {
   position: relative;
-  width: 188px;
+  width: 184px;
   height: 20px;
   padding-top: 15px;
   padding-right: 16px;
@@ -1657,34 +1694,30 @@ padding-left: 11px;
   vertical-align: top;
   margin: 0;
 }
-.name-fatness p{
+.name-fatness{
   color: #ffffff;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   font-family: inherit;
   margin: 0;
-  margin-bottom: 10px;
-  padding-left: 16px;
+  margin-bottom: 7px;
+  padding-left: 10px;
 }
 .radio-list{
-  padding-top: 9px;
-  padding-right: 0px;
-  padding-bottom: 9px;
+  padding-top: 8px;
+  padding-right: 5px;
+  padding-bottom: 8px;
   padding-left: 10px;
   vertical-align: middle;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.2);
-  margin-right: 14px;
+  margin-right: 0px;
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   font-family: inherit;
-}
-.radio-fatness {
-  padding-left: 12px;
-  padding-right: 15px;
 }
 .filters{
   width: 704px;
@@ -1693,42 +1726,38 @@ padding-left: 11px;
   margin: 0;
   padding: 0px;
 }
-.name-filters p{
+.name-filters{
   color: #ffffff;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   font-family: inherit;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   padding-left: 16px;
 }
 .filters-list{
   padding-top: 9px;
-  padding-right: 0px;
+  padding-right: 10px;
   padding-bottom: 9px;
   padding-left: 10px;
   vertical-align: middle;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.2);
-  margin-right: 14px;
+  margin-right: 0px;
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   font-family: inherit;
 }
-.filters-item {
-  padding-left: 35px;
-  padding-right: 10px;
-}
-
 .filters-on{
   display: inline-block;
   width: 142px;
   height: 34px;
   vertical-align: top;
-  margin-top: 26px;
+  margin-top: 23px;
+  margin-left: 10px;
   border: 2px solid #ffffff;
   border-radius:30px;
   background: rgba(255, 255, 255, 0.2);
@@ -1749,9 +1778,8 @@ padding-left: 11px;
 }
 .radio-fatness{
   position: relative;
-
-  padding-left: 28px;
-
+  padding-right: 15px;
+  padding-left: 31.5px;
   cursor: pointer;
 }
 .radio-btn{
@@ -1759,12 +1787,10 @@ padding-left: 11px;
 }
 .radio-btn + .radiobox-indicator {
   position: absolute;
-  top: -2px;
-  left: 0;
-
+  top: -1px;
+  left: 1px;
   width: 20px;
   height: 20px;
-
   border: 1px solid #ffffff;
   border-radius: 50%;
   box-sizing: border-box;
@@ -1789,19 +1815,18 @@ padding-left: 11px;
 }
 .filters-item{
   position: relative;
-
-  padding-left: 35px;
+  padding-right: 11px;
+  padding-left: 36.8px;
 
   cursor: pointer;
 }
 .indicator + .checkbox-indicator{
   position: absolute;
-  top: -2px;
-  left: 0;
-
+  top: -1px;
+  left: 5px;
   width: 20px;
   height: 20px;
-
+  border-radius: 5px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
 }
@@ -1811,10 +1836,7 @@ padding-left: 11px;
  position: absolute;
  top: 9px;
  left: 5px;
-
-
  height: 3px;
-
  background-color:#ffffff;
 }
 .indicator:checked + .checkbox-indicator::before{
@@ -1835,16 +1857,16 @@ padding-left: 11px;
   font-size: 0px;
   margin-top: 40px;
   margin-bottom: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 29px;
   border-bottom: 1px solid #ffffff;
 }
 .pagination-list{
   position: relative;
   margin: 0;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 44px;
   margin-left: 953px;
-  padding-left: 27px;
+  padding-left: 26px;
 }
 .pagination-item{
   display: inline-block;
@@ -1906,7 +1928,7 @@ padding-left: 11px;
 .advantages-item{
   display: inline-block;
   width: 540px;
-  min-height: 90px;
+  min-height: 88px;
   vertical-align: top;
   margin-right: 26px;
   font-size: 16px;
@@ -1930,11 +1952,20 @@ padding-left: 11px;
   overflow: hidden;
   position: relative;
 }
-.cle{
-  position: relative;
+.position{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1146px;
+  height: 430px;
+  margin-left: -573px;
+  margin-top: -215px;
+  padding: 63px 0px;
 }
 .coordinates{
   width: 100%;
+  position: relative;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
