@@ -266,12 +266,13 @@
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
       <h3 class="modal-content-title">Мы обязательно Вам ответим</h3>
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-        <input class="name-user" type="text" name="name" placeholder="Как Вас зовут?">
-        <input class="icon-email" type="text"  name="email-modal" placeholder="Ваша почта для ответа?">
+        <input class="name-user" type="text" name="name" placeholder="Как Вас зовут?" required>
+        <input class="icon-email" type="text"  name="email-modal" placeholder="Ваша почта для ответа?" required>
         <textarea name="comment" id="comment-field" rows="6">Напишите что нибудь...</textarea>
         <button class="btn-modal" type="submit">Отправить</button>
       </form>
     </div>
     <div class="modal-overlay"></div>
+    <script src="js/popup.js"></script>  
   </body>
 </html>
