@@ -402,10 +402,38 @@ border-bottom: 1px solid rgba(255, 255, 255, 0);
   padding: 8px 21px;
   border-radius: 0px;
 }
+.activ .new-item:active{
+  display: block;
+  padding: 0px;
+  background: #d0705e;
+  color: #000000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  font-family: inherit;
+  text-decoration: none;
+  margin:0px;
+  padding: 8px 21px;
+  border-radius: 0px;
+}
 .submenu-item:last-child .new-item:active{
   display: block;
   padding: 0px;
   background: #f6b5a5;
+  color: #000000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  font-family: inherit;
+  text-decoration: none;
+  margin:0px;
+  padding: 8px 21px;
+  border-radius: 5px;
+}
+.activ .submenu-item:last-child>.new-item:active{
+  display: block;
+  padding: 0px;
+  background: #d0705e;
   color: #000000;
   font-size: 14px;
   line-height: 16px;
@@ -959,13 +987,13 @@ position: relative;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .breadcrumbs-item:not(:last-child) a::after{
-  content: ">>";
+  content: "»";
   position: absolute;
-  top: 2px;
-  left: 60px;
-  width: 7px;
-  height: 7px;
-  font-size: 8px;
+  top: 0px;
+  left: 61px;
+  width: 8px;
+  height: 8px;
+  font-size: 14px;
 }
 .breadcrumbs-item:not(:last-child) a:hover, .breadcrumbs-item:not(:last-child) a:active{
   color:#ffbc9e;
@@ -980,7 +1008,6 @@ position: relative;
   line-height: 16px;
   font-family: inherit;
   font-weight: normal;
-
 }
 .content{
   width: 1146px;
@@ -1185,7 +1212,7 @@ img{
  z-index: 25;
  top:-6px;
  right: -13px;
- bottom: -66px;
+ bottom: -86px;
  left: -13px;
  background: rgba(255, 255, 255, 0.2);
  border-radius: 5px;
